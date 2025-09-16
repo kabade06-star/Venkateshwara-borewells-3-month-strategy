@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Plan: Sri Venkateshwara Borewells</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 1rem;
+            vertical-align: top;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        th {
+            background-color: #f9fafb;
+            font-weight: 600;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        .text-blue-600 {
+            color: #2563eb;
+        }
+        .completed {
+            text-decoration: line-through;
+            color: #9ca3af;
+        }
+        .task-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .task-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.5rem;
+        }
+        .task-item input[type="checkbox"] {
+            margin-top: 0.25rem;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-4 sm:p-8">
+    <div class="container bg-white p-6 sm:p-12 rounded-2xl shadow-xl">
+        <header class="mb-8">
+            <h1 class="text-4xl sm:text-5xl font-bold text-center text-blue-600 mb-2">Digital Marketing Plan</h1>
+            <h2 class="text-xl sm:text-2xl text-center text-gray-700">Sri Venkateshwara Borewells</h2>
+        </header>
+
+        <section class="mb-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center text-gray-600 font-medium">
+                <div class="card p-4">
+                    <p class="text-sm sm:text-base">Client Name:</p>
+                    <p class="font-semibold text-lg sm:text-xl text-gray-800">Sri Venkateshwara Borewells</p>
+                </div>
+                <div class="card p-4">
+                    <p class="text-sm sm:text-base">Plan Name:</p>
+                    <p class="font-semibold text-lg sm:text-xl text-gray-800">Pro</p>
+                </div>
+                <div class="card p-4">
+                    <p class="text-sm sm:text-base">Start Date:</p>
+                    <p class="font-semibold text-lg sm:text-xl text-gray-800">September 20th, 2025</p>
+                </div>
+                <div class="card p-4">
+                    <p class="text-sm sm:text-base">End Date:</p>
+                    <p class="font-semibold text-lg sm:text-xl text-gray-800">December 30th, 2025</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h3 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 text-center">Detailed Plan</h3>
+            <div class="overflow-x-auto rounded-lg shadow-md">
+                <table class="w-full text-gray-600">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="w-1/5">Deliverable</th>
+                            <th class="w-1/5">Month 1 (Sept 20 - Oct 19)</th>
+                            <th class="w-1/5">Month 2 (Oct 20 - Nov 19)</th>
+                            <th class="w-1/5">Month 3 (Nov 20 - Dec 30)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr>
+                            <td>**Website**</td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="website_m1_1"><label for="website_m1_1">Homepage Creation</label></li>
+                                    <li class="task-item"><input type="checkbox" id="website_m1_2"><label for="website_m1_2">About Us Page</label></li>
+                                    <li class="task-item"><input type="checkbox" id="website_m1_3"><label for="website_m1_3">Services Pages</label></li>
+                                    <li class="task-item"><input type="checkbox" id="website_m1_4"><label for="website_m1_4">Image & Video Gathering</label></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="website_m2_1"><label for="website_m2_1">Blog Post Publishing</label></li>
+                                    <li class="task-item"><input type="checkbox" id="website_m2_2"><label for="website_m2_2">FAQ Section Creation</label></li>
+                                    <li class="task-item"><input type="checkbox" id="website_m2_3"><label for="website_m2_3">Testimonials Section</label></li>
+                                    <li class="task-item"><input type="checkbox" id="website_m2_4"><label for="website_m2_4">Regional Landing Pages</label></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="website_m3_1"><label for="website_m3_1">Case Studies (2)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="website_m3_2"><label for="website_m3_2">Service Gallery Creation</label></li>
+                                    <li class="task-item"><input type="checkbox" id="website_m3_3"><label for="website_m3_3">Content Optimization</label></li>
+                                    <li class="task-item"><input type="checkbox" id="website_m3_4"><label for="website_m3_4">CTA A/B Testing</label></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <div class="bg-gray-100 p-4 rounded-lg mt-2">
+                                    <p class="font-semibold text-gray-800">**Website Content & Details (Min. 1000 words per page):**</p>
+                                    <p><b>Homepage:</b> Features an Indian-touch hero section with Kannada CTA. References Hubli-Dharwad landmarks like Gokul Road. <br> <b>About Us:</b> Narrates company history, family values, and expertise in Deccan Plateau geology. <br> <b>Services Pages:</b> Dedicated pages for Residential, Agricultural, and Industrial borewells. Content mentions specific areas like Hubli's Navanagar. <br> <b>Blog:</b> Topics include "The Science Behind Borewell Drilling in Hubli-Dharwad," "A Farmer's Guide to Pumps," and "Borewell Maintenance." <br> <b>Case Studies:</b> 2 detailed case studies with before/after photos and client quotes.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>**Social Media**</td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="social_m1_1"><label for="social_m1_1">Profile Setup (FB/Insta)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="social_m1_2"><label for="social_m1_2">Pitru Paksha Banners (4 images)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="social_m1_3"><label for="social_m1_3">Durga Ashtami Banners (4 images)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="social_m1_4"><label for="social_m1_4">Mysore Dusshera Banners (4 images)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="social_m1_5"><label for="social_m1_5">Gandhi Jayanti Banners (4 images)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="social_m1_6"><label for="social_m1_6">Product Banners (4)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="social_m1_7"><label for="social_m1_7">Intro Reels (2)</label></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="social_m2_1"><label for="social_m2_1">Deepavali Banners (4 images)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="social_m2_2"><label for="social_m2_2">Karnataka Rajyotsava Banners (4 images)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="social_m2_3"><label for="social_m2_3">Maharshi Valmiki Jayanti Banners (4 images)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="social_m2_4"><label for="social_m2_4">Product Banners (4)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="social_m2_5"><label for="social_m2_5">Reels (2)</label></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="social_m3_1"><label for="social_m3_1">Tulsi Vivah Banners (4 images)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="social_m3_2"><label for="social_m3_2">Kanakadasa Jayanti Banners (4 images)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="social_m3_3"><label for="social_m3_3">Product Banners (4)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="social_m3_4"><label for="social_m3_4">Reels (2)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="social_m3_5"><label for="social_m3_5">Engagement Contest</label></li>
+                                </ul>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td colspan="4">
+                                <div class="bg-gray-100 p-4 rounded-lg mt-2">
+                                    <p class="font-semibold text-gray-800">**Ad Banners & Reels Details (Min. 1000 words):**</p>
+                                    <p>All content has an **Indian touch**. Banners connect festivals to water (e.g., Durga's strength to a reliable borewell). Captions use specific hashtags like #Hubli and #WaterForLife. Reels include team intros and client testimonials in **Kannada**. <br><b>Image Ideas:</b> Detailed descriptions for 4 images per banner theme (e.g., Pitru Paksha: borewell rig next to a banyan tree, symbolizing legacy). <br><b>Reels:</b> "Day in the Life of a Borewell Crew" set to patriotic Indian music and a "Myth vs. Reality" Q&A reel.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>**Paid Ads**</td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="paid_m1_1"><label for="paid_m1_1">Google Ads Setup (Search)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="paid_m1_2"><label for="paid_m1_2">Campaign 1: High-Intent Keywords</label></li>
+                                    <li class="task-item"><input type="checkbox" id="paid_m1_3"><label for="paid_m1_3">Budget: Allocate 50% of ₹2,000</label></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="paid_m2_1"><label for="paid_m2_1">Meta Ads Setup (Lead Gen)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="paid_m2_2"><label for="paid_m2_2">Campaign 2: Awareness</label></li>
+                                    <li class="task-item"><input type="checkbox" id="paid_m2_3"><label for="paid_m2_3">Budget: Allocate 30% of ₹2,000</label></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="paid_m3_1"><label for="paid_m3_1">Retargeting Setup (Google/Meta)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="paid_m3_2"><label for="paid_m3_2">Campaign 3: Retargeting</label></li>
+                                    <li class="task-item"><input type="checkbox" id="paid_m3_3"><label for="paid_m3_3">Budget: Allocate 20% of ₹2,000</label></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <div class="bg-gray-100 p-4 rounded-lg mt-2">
+                                    <p class="font-semibold text-gray-800">**Ad Copy & Targeting Details (Min. 1000 words):**</p>
+                                    <p><b>Google Ads</b> capture high-intent users with keywords like "borewell drilling Hubli." <b>Meta Ads</b> build brand awareness with creative banners and video ads. <b>Retargeting</b> focuses on converting past visitors with testimonials. <br> <b>Budget Strategy:</b> A very low total budget of ₹2,000 is split strategically to maximize conversion. The plan prioritizes high-intent search over broad awareness. <br> <b>Targeting:</b> Location: Hubli & Dharwad (40km radius). Demographics: Age 25-60. Interests: Agriculture, Construction, Real estate.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>**Outreach**</td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="outreach_m1_1"><label for="outreach_m1_1">Bulk Telecalling (500 calls)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="outreach_m1_2"><label for="outreach_m1_2">Bulk WhatsApp (₹200/month)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="outreach_m1_3"><label for="outreach_m1_3">Level 1 IVR Setup</label></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="outreach_m2_1"><label for="outreach_m2_1">Telecalling Follow-up (300 calls)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="outreach_m2_2"><label for="outreach_m2_2">WhatsApp Follow-up (₹200/month)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="outreach_m2_3"><label for="outreach_m2_3">Level 2 IVR Setup</label></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="outreach_m3_1"><label for="outreach_m3_1">Appointment Confirmation Calls (200 calls)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="outreach_m3_2"><label for="outreach_m3_2">WhatsApp Final Push (₹200/month)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="outreach_m3_3"><label for="outreach_m3_3">Level 3 IVR Setup</label></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <div class="bg-gray-100 p-4 rounded-lg mt-2">
+                                    <p class="font-semibold text-gray-800">**Outreach Scripts Details (20 sec):**</p>
+                                    <p><b>Telecalling Script:</b> "Namaste, I am calling from **Sri Venkateshwara Borewells**. We are a leading borewell company in **Hubli-Dharwad**. Are you interested in a reliable and long-lasting water solution...?" <br> <b>WhatsApp Message:</b> "💧 Tired of water problems? **Sri Venkateshwara Borewells** offers complete borewell solutions in Hubli & Dharwad. Reliable service, transparent prices. Get a free site survey today! Click here to know more: [Website Link] #WaterForLife #Hubli" <br> <b>IVR:</b> A 3-level system to route callers to sales, and then to appointment setting.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>**Optimization**</td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="opt_m1_1"><label for="opt_m1_1">GMB Profile Optimization</label></li>
+                                    <li class="task-item"><input type="checkbox" id="opt_m1_2"><label for="opt_m1_2">GMB Weekly Posts</label></li>
+                                    <li class="task-item"><input type="checkbox" id="opt_m1_3"><label for="opt_m1_3">Review Management</label></li>
+                                    <li class="task-item"><input type="checkbox" id="opt_m1_4"><label for="opt_m1_4">On-Page SEO</label></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="opt_m2_1"><label for="opt_m2_1">GMB Updates</label></li>
+                                    <li class="task-item"><input type="checkbox" id="opt_m2_2"><label for="opt_m2_2">Local Citations (Justdial, etc.)</label></li>
+                                    <li class="task-item"><input type="checkbox" id="opt_m2_3"><label for="opt_m2_3">Backlink Outreach</label></li>
+                                    <li class="task-item"><input type="checkbox" id="opt_m2_4"><label for="opt_m2_4">Content SEO</label></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="opt_m3_1"><label for="opt_m3_1">GMB Maintenance</label></li>
+                                    <li class="task-item"><input type="checkbox" id="opt_m3_2"><label for="opt_m3_2">Technical SEO</label></li>
+                                    <li class="task-item"><input type="checkbox" id="opt_m3_3"><label for="opt_m3_3">Schema Markup</label></li>
+                                    <li class="task-item"><input type="checkbox" id="opt_m3_4"><label for="opt_m3_4">Reporting</label></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <div class="bg-gray-100 p-4 rounded-lg mt-2">
+                                    <p class="font-semibold text-gray-800">**GMB & SEO Details (Min. 1000 words):**</p>
+                                    <p>Focus on **Hyper-Local SEO** to rank higher in local search. This includes GMB optimization with photos, services, and weekly posts. The plan details keyword research for local terms. **Off-Page SEO** includes building local citations on platforms like Justdial and IndiaMART. **Technical SEO** focuses on website speed, mobile-friendliness, and schema markup to improve search visibility.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>**Ecommerce**</td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="ecommerce_m1_1"><label for="ecommerce_m1_1">Setup & optimize platforms</label></li>
+                                    <li class="task-item"><input type="checkbox" id="ecommerce_m1_2"><label for="ecommerce_m1_2">Integrate lead generation</label></li>
+                                    <li class="task-item"><input type="checkbox" id="ecommerce_m1_3"><label for="ecommerce_m1_3">Monitor inquiries</label></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="ecommerce_m2_1"><label for="ecommerce_m2_1">Promote listings</label></li>
+                                    <li class="task-item"><input type="checkbox" id="ecommerce_m2_2"><label for="ecommerce_m2_2">Nurture leads</label></li>
+                                    <li class="task-item"><input type="checkbox" id="ecommerce_m2_3"><label for="ecommerce_m2_3">Refine messaging</label></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="task-list">
+                                    <li class="task-item"><input type="checkbox" id="ecommerce_m3_1"><label for="ecommerce_m3_1">Conversion tracking</label></li>
+                                    <li class="task-item"><input type="checkbox" id="ecommerce_m3_2"><label for="ecommerce_m3_2">Scaling effective platforms</label></li>
+                                    <li class="task-item"><input type="checkbox" id="ecommerce_m3_3"><label for="ecommerce_m3_3">Analyze performance</label></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <div class="bg-gray-100 p-4 rounded-lg mt-2">
+                                    <p class="font-semibold text-gray-800">**Ecommerce Creation & Optimisation (Min. 1000 words):**</p>
+                                    <p><b>Facebook Marketplace:</b> A free local marketplace. We'll create a service listing for "Borewell Drilling & Water Solutions in Hubli-Dharwad." <b>Lead Gen:</b> Inquiries are routed to Messenger. <b>Commission:</b> Free. <br> <b>WhatsApp Catalogue:</b> A feature within WhatsApp Business to showcase services as a digital menu. <b>Lead Gen:</b> Customers inquire directly from the catalog. <b>Commission:</b> Free. <br> <b>NT Shop:</b> A local classifieds site for services in Hubli-Dharwad. We will create an optimized profile. <b>Lead Gen:</b> Customers find your listing and contact you directly. <b>Commission:</b> Free to list. <br> <b>GMB (Google My Business):</b> Use the "Products" feature to creatively list services like "Residential Borewell Survey" to increase visibility and direct inquiries. <b>Commission:</b> Free.</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="mt-8">
+            <h3 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 text-center">Confidence & Strategy Summary</h3>
+            <div class="card p-6">
+                <p class="text-gray-700 text-lg mb-4">Based on this comprehensive plan, I am **85% confident** that you will achieve the expected outcomes. The plan is highly targeted, well-researched, and leverages a multi-channel approach to ensure a strong and consistent presence. The only variable is the competitive landscape and the unpredictable nature of lead generation, but the strategies outlined here are designed to maximize your chances of success.</p>
+                <div class="space-y-4">
+                    <p class="font-semibold text-gray-800"><span class="text-blue-600">1. Hyper-Local SEO & GMB Optimization:</span> This strategy is designed to capture the most valuable, high-intent leads who are searching for "borewell services" specifically in the Hubli and Dharwad areas. By optimizing your GMB profile and website for local keywords, you will rank higher in Google Maps and local search results, directly contributing to your goal of 10th ranking on the website and helping to generate 30 new leads.</p>
+                    <p class="font-semibold text-gray-800"><span class="text-blue-600">2. Multilingual & Culturally Relevant Content:</span> The "Indian touch" is a core strategy for connecting with the local audience. By using relatable themes (festivals like Pitru Paksha, Durga Ashtami, Mysore Dussehra, Gandhi Jayanti, Maharshi Valmiki Jayanti, Deepavali, Karnataka Rajyotsava, Tulsi Vivah, Kanakadasa Jayanti) and local language (Kannada), you build trust and brand affinity. This approach is key to attracting and retaining 40 new social media followers and creating a positive brand image that leads to a higher conversion rate.</p>
+                    <p class="font-semibold text-gray-800"><span class="text-blue-600">3. Targeted Paid Advertising (Google & Meta):</span> This is a dual-pronged approach to lead generation. Google Ads captures immediate demand from people ready to buy, while Meta Ads build long-term brand awareness and capture leads who are still in the consideration phase. This balance ensures a steady flow of inquiries and is the primary driver for achieving your goal of 30 new leads for the provided ad budget.</p>
+                    <p class="font-semibold text-gray-800"><span class="text-blue-600">4. Integrated Outreach Campaigns:</span> The telecalling and WhatsApp campaigns are a direct and effective way to generate immediate interest and appointments. The scripts are designed to be concise and lead-focused. The IVR system ensures that incoming calls are routed efficiently, preventing lost opportunities. This strategy is specifically tailored to meet your goals of 20 good appointment interests and 5 fixed appointments.</p>
+                    <p class="font-semibold text-gray-800"><span class="text-blue-600">5. Authority Building through Content Marketing:</span> The detailed website content, including blogs, case studies, and a strong "About Us" page, is not just for SEO; it's for building credibility. By showcasing expertise and providing valuable information, you establish your company as a trusted authority. This long-term strategy will result in higher search engine rankings and more trust from potential customers, leading to organic leads and a strong foundation for acquiring 10 Google reviews and long-term business growth.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        const tasks = JSON.parse(localStorage.getItem('completedTasks')) || {};
+
+        const applyStyles = (checkbox) => {
+            const label = checkbox.nextElementSibling;
+            if (checkbox.checked) {
+                label.classList.add('completed');
+            } else {
+                label.classList.remove('completed');
+            }
+        };
+
+        const loadState = () => {
+            checkboxes.forEach(checkbox => {
+                if (tasks[checkbox.id]) {
+                    checkbox.checked = true;
+                }
+                applyStyles(checkbox);
+            });
+        };
+
+        const saveState = () => {
+            const updatedTasks = {};
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    updatedTasks[checkbox.id] = true;
+                }
+            });
+            localStorage.setItem('completedTasks', JSON.stringify(updatedTasks));
+        };
+
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', (event) => {
+                applyStyles(event.target);
+                saveState();
+            });
+        });
+
+        loadState();
+    });
+</script>
+</body>
+</html>
